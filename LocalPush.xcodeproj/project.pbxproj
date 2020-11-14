@@ -14,6 +14,7 @@
 		116E5819255CFC38008A425D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116E5818255CFC38008A425D /* Assets.xcassets */; };
 		116E581C255CFC38008A425D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116E581A255CFC38008A425D /* LaunchScreen.storyboard */; };
 		116E582A255D082C008A425D /* donald_trump.png in Resources */ = {isa = PBXBuildFile; fileRef = 116E5829255D082C008A425D /* donald_trump.png */; };
+		11E5D8E4255E82E9004FB1B5 /* LocalNotiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5D8E3255E82E9004FB1B5 /* LocalNotiManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		116E581B255CFC38008A425D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		116E581D255CFC38008A425D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		116E5829255D082C008A425D /* donald_trump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = donald_trump.png; sourceTree = "<group>"; };
+		11E5D8E3255E82E9004FB1B5 /* LocalNotiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotiManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		116E580E255CFC35008A425D /* LocalPush */ = {
 			isa = PBXGroup;
 			children = (
+				11E5D8E2255E8283004FB1B5 /* Manager */,
 				116E5828255D0820008A425D /* Resources */,
 				116E580F255CFC35008A425D /* AppDelegate.swift */,
 				116E5811255CFC35008A425D /* SceneDelegate.swift */,
@@ -76,6 +79,14 @@
 				116E5829255D082C008A425D /* donald_trump.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		11E5D8E2255E8283004FB1B5 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				11E5D8E3255E82E9004FB1B5 /* LocalNotiManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				116E5814255CFC35008A425D /* ViewController.swift in Sources */,
+				11E5D8E4255E82E9004FB1B5 /* LocalNotiManager.swift in Sources */,
 				116E5810255CFC35008A425D /* AppDelegate.swift in Sources */,
 				116E5812255CFC35008A425D /* SceneDelegate.swift in Sources */,
 			);

@@ -18,8 +18,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LhQ-TG-CJP">
-                                <rect key="frame" x="133.5" y="438" width="147" height="30"/>
-                                <state key="normal" title="Fire Notification (10s)"/>
+                                <rect key="frame" x="152.5" y="438" width="109" height="30"/>
+                                <state key="normal" title="Fire Notification"/>
                                 <connections>
                                     <action selector="fireNotiTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EdL-VF-c69"/>
                                 </connections>
